@@ -11,5 +11,6 @@ namespace Wallet.Repository
     {
         void SaveInfo(PaymentModal payment);
         List<PaymentModal> GetInfos();
+        string TransactionMoney(TransferMoney payment);
     }
 }
